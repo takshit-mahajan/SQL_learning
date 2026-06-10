@@ -1,3 +1,35 @@
+/*
+CASE STUDY: Mahajan Paints & Hardware Store
+
+A small paint and hardware business wants to maintain digital records.
+
+Requirements:
+1. Create a database for the store.
+2. Create a customers table to store customer details.
+3. Create a products table to store inventory information.
+4. Insert sample customer and product records.
+5. Modify the database structure when business requirements change:
+   - Add an email column to customers.
+   - Increase phone number length.
+   - Rename product price column.
+6. View table structures.
+7. Rename the products table to inventory.
+8. Remove all inventory records while keeping the table.
+9. Delete the inventory table when it is no longer needed.
+
+Objective:
+Practice core SQL DDL operations:
+CREATE DATABASE
+CREATE TABLE
+ALTER TABLE
+RENAME TABLE
+DESCRIBE
+TRUNCATE TABLE
+DROP TABLE
+
+Author: Takshit Mahajan
+*/
+
 CREATE DATABASE paint_store;
 USE paint_store;
 
